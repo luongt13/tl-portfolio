@@ -10,5 +10,8 @@ allProject.forEach((item) => {
         let button = document.createElement('button')
         button.innerHTML = "moo"
         item.append(button)
+        caseButton.forEach((btn) => {
+            btn.classList.toggle('disappear')
+        })
     })
 })
