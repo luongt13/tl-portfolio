@@ -4,7 +4,7 @@ import PortfolioCard from "./PortfolioCard"
 import {data} from "../data.js"
 
 export default function PortfolioList() {
-
+console.log(data)
     return (
         <div className="project-list">
             {data.map((item) => {
