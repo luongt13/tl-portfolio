@@ -1,4 +1,7 @@
-
+img {
+    height: auto;
+    max-width: 80%;
+}
 
 .project-list {
     display: flex;
@@ -13,10 +16,17 @@
 }
 
 .card {
-    background-color: red;
+    background-color:rgba(173, 115, 115, 0.603);
 }
 
 .buttons {
     display: flex;
     justify-content: center;
+    background-color:rgba(173, 115, 115, 0.603);
+}
+
+@media screen and (max-width: 800px) {
+    .project-item {
+        width: 80%;
+    }
 }
