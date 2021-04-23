@@ -16,13 +16,13 @@ img {
 }
 
 .card {
-    background-color:rgba(173, 115, 115, 0.603);
+    /* background-color:rgba(115, 138, 173, 0.603); */
 }
 
 .buttons {
     display: flex;
     justify-content: center;
-    background-color:rgba(173, 115, 115, 0.603);
+    /* background-color:rgba(173, 115, 115, 0.603); */
 }
 
 @media screen and (max-width: 800px) {

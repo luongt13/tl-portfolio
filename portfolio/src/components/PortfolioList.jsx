@@ -9,7 +9,7 @@ console.log(data)
         <div className="project-list">
             {data.map((item) => {
                 return (
-                    <PortfolioCard data={item}/>
+                    <PortfolioCard key={item.number} data={item}/>
                 )
             })}
         </div>
