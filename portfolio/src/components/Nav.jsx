@@ -7,12 +7,14 @@ export default function Nav() {
     return (
         <div>
             <AppBar position="static" className="nav" color="default">
-                <Toolbar>
-            <Button><Link to="/">Tran Luong</Link></Button>
-            <Button><Link to="/">Projects</Link></Button>
-            <Button><Link to="/about">My Story</Link></Button>
-            <Footer/>
-            </Toolbar>
+            <img className="logo" src="/images/logo.png"/>
+                <Toolbar className="links">
+                {/* <img className="logo" src="/images/logo.png"/> */}
+                {/* <Button><Link to="/">Tran Luong</Link></Button> */}
+                <Button><Link to="/">Projects</Link></Button>
+                <Button><Link to="/about">My Story</Link></Button>
+                <Footer/>
+                </Toolbar>
             </AppBar>
         </div>
     )

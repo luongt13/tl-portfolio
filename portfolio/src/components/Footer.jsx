@@ -5,7 +5,7 @@ import {Button} from "@material-ui/core"
 
 export default function Footer() {
     return (
-        <div>
+        <div className="contact">
             <Button href="https://www.linkedin.com/in/tran-luong/" target="_blank"><LinkedInIcon fontSize="medium"/></Button>
             <Button href="https://github.com/luongt13"><GitHubIcon fontSize="small"/></Button>
         </div>
