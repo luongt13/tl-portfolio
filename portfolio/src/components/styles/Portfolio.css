@@ -15,14 +15,13 @@ img {
     margin: 15px auto;
 }
 
-/* .card { */
-    /* background-color:rgba(115, 138, 173, 0.603); */
-/* } */
+.card { 
+    text-align: center;
+}
 
 .buttons {
     display: flex;
     justify-content: center;
-    /* background-color:rgba(173, 115, 115, 0.603); */
 }
 
 @media screen and (max-width: 800px) {

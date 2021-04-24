@@ -1,7 +1,6 @@
 import React from 'react'
-import {Button, Card, CardActions, CardContent, Container, ButtonGroup,} from "@material-ui/core/"
-import GitHubIcon from '@material-ui/icons/GitHub'
-import WebIcon from '@material-ui/icons/Web'
+import {Button, Container, Tooltip} from "@material-ui/core/"
+import {GitHub, DesktopWindows} from "@material-ui/icons"
 
 import "./styles/Portfolio.css"
 export default function PortfolioCard(props) {
@@ -9,14 +8,18 @@ export default function PortfolioCard(props) {
     return (
         <>
         <Container className="project-item">
-            <CardContent className="card">
+            <div className="card">
                 <h4>{props.data.title}</h4>
                 <img src={props.data.img} alt="fish"/>
-            </CardContent>
-            <CardActions className="buttons">
-            <Button href={props.data.webURL} target="_blank"  endIcon={<WebIcon/>}>live site</Button>
-            <Button href={props.data.githubURL} target="_blank" endIcon={<GitHubIcon/>}>github</Button>
-            </CardActions>
+            </div>
+            <div className="buttons">
+            <Tooltip title="live site">
+                <Button href={props.data.webURL} target="_blank"><DesktopWindows/></Button>
+            </Tooltip>
+            <Tooltip title="github">
+                <Button href={props.data.githubURL} target="_blank"><GitHub/></Button>
+            </Tooltip>
+            </div>
         </Container>
         {/* <Container elevation={0} className="project-item">
             <CardContent className="card"> 

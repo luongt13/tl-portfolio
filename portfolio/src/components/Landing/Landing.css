@@ -1,0 +1,39 @@
+p {
+    font-size: clamp(10px, 8vw, 17px);
+    text-align: left;
+    width: 90%;
+    margin-top: 0;
+}
+
+.tech {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 200px;
+
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    width: 80%;
+}
+
+.big-text {
+    font-size: clamp(40px, 8vw, 80px);
+    margin: 0;
+}
+
+li {
+    display: list-item;
+    list-style-type: "+";
+    padding-inline-start: 1ch;
+}
+
