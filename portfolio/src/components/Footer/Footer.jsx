@@ -8,6 +8,7 @@ export default function Footer() {
         <div className="footer">
             <Button><LinkedIn/></Button>
             <Button><GitHub fontSize="small"/></Button>
+            <p>Designed and build by Tran Luong</p>
         </div>
     )
 }

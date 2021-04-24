@@ -29,7 +29,7 @@ export default function Nav(props) {
                     <div className="mobile">
                         <Button onClick={toggleDrawer("left", true)}><Menu/></Button>
                         <SwipeableDrawer anchor="left" open={state["left"]} onClose={toggleDrawer("left", false)} onOpen={toggleDrawer("left", true)}>
-                            <Button className="drawer-btn"><Link style={{color: color}}to="/"><Home/></Link></Button>
+                            <Button className="drawer-btn"><Link style={{color: color}}to="/"><img className="logo" src="/images/logo.png"title="Home" alt="logo"/></Link></Button>
                             <Button><Link style={{color: color}} to="/about"><Face/></Link></Button>
                             <Button className="drawer-btn"><Link style={{color: color}}to="/projects"><Code/></Link></Button>
                             <Button><Link style={{color: color}} to="/contact"><Email/></Link></Button> 

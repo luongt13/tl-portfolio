@@ -10,6 +10,7 @@ import Landing from "./components/Landing/Landing.jsx"
 import Footer from "./components/Footer/Footer.jsx"
 import {createMuiTheme, ThemeProvider} from "@material-ui/core/styles"
 import CssBaseline from "@material-ui/core/CssBaseline"
+import TestExpand from "./components/TestExpand.jsx"
 
 function App() {
   const [mode, setMode] = useState({
@@ -57,7 +58,7 @@ function App() {
           <PortfolioList/>
         </Route>
         </div>
-
+        <TestExpand/>
     </ThemeProvider>
     </div>
   )

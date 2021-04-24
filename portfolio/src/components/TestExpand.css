@@ -1,0 +1,13 @@
+.expand-more {
+    align-self: flex-end;
+    /* height: 100vh; */
+    /* display: flex;
+    flex-direction: row; */
+    /* align-items: flex-end; */
+}
+
+button {
+    /* bottom: 0;
+    left: 0; */
+    /* position: fixed; */
+}

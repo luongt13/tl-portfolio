@@ -4,6 +4,7 @@ a {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 
 .logo {
@@ -18,7 +19,7 @@ a {
 }
 
 .drawer-btn {
-    width:  150px;
+    width: 150px;
 }
 
 .contact {
