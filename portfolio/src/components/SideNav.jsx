@@ -1,19 +1,16 @@
 import React from 'react'
 import {Email, GitHub, LinkedIn, Code, Home, Face} from "@material-ui/icons"
 import {Button, Tooltip} from "@material-ui/core"
-import "./TestNav.css"
+import "./SideNav.css"
 
-export default function TestNav() {
+export default function SideNav() {
     return (
         <div className="side-nav">
-            {/* <Tooltip title="Home" placement="right">
-                <Button><Home/></Button>
-            </Tooltip> */}
             <Tooltip title="About" placement="right">
-                <Button><Face/></Button>
+                <Button href="#about"><Face/></Button>
             </Tooltip>
             <Tooltip title="Projects" placement="right">
-                <Button><Code/></Button>
+                <Button href="#projects"><Code/></Button>
             </Tooltip>
             <Tooltip title="Email" placement="right">
                 <Button><Email fontSize="small"/></Button> 

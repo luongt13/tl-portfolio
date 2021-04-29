@@ -2,12 +2,21 @@ import React from 'react'
 import PortfolioPreview from "../PortfolioPreview.jsx"
 import {Button} from "@material-ui/core"
 import {Email, LinkedIn} from "@material-ui/icons"
+import About from "../About/About.jsx"
+import Contact from "../Contact/Contact.jsx"
+import Intro from "../Intro/Intro.jsx"
 
 import "./Landing.css"
 export default function Landing() {
     return (
         <div className="content">
             <div className="main">
+                <Intro/>
+            </div>
+            <div className="main" id="about">
+                <About/>
+            </div>
+            {/* <div className="main">
                 <h1 className="big-text">Tran Luong.</h1>
                 <p>I am a Philly-based software engineer who loves taking a creative approach to developing tools to improve the lives of others.</p>
             </div>
@@ -32,19 +41,22 @@ export default function Landing() {
                         <li>Mongoose</li>
                     </ul>
                 </div>
-            </div>
-            <div className="main">
+            </div> */}
+            <div className="main" id="projects">
                 <h2>Things I've created.</h2>
                 <PortfolioPreview/>
             </div>
             <div className="main">
+                <Contact/>
+            </div>
+            {/* <div className="main">
             <h2>Get in touch.</h2>
             <p>I am currently looking for opportunities. You can reach me through email or connect with me on LinkedIn.</p>
             <div className="buttons">
                 <Button href={`mailto:luongt.13@gmail.com`}><Email fontSize="small"/></Button>
                 <Button><LinkedIn/></Button>
             </div>
-            </div>
+            </div> */}
         </div>
     )
 }

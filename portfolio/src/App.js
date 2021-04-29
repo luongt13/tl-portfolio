@@ -4,7 +4,7 @@ import {Route} from "react-router-dom"
 import Nav from "./components/Nav/Nav.jsx"
 import About from "./components/About/About.jsx"
 import PortfolioList from "./components/PortfolioList/PortfolioList.jsx"
-import TestNav from "./components/TestNav.jsx"
+import SideNav from "./components/SideNav.jsx"
 import PortfolioPreview from "./components/PortfolioPreview"
 import Landing from "./components/Landing/Landing.jsx"
 import Footer from "./components/Footer/Footer.jsx"
@@ -47,7 +47,7 @@ function App() {
       <CssBaseline/>
         <Nav mode={mode} handleChange={handleChange}/>
         <div className="layout">
-        <TestNav/>
+        <SideNav/>
         <Route path="/about"> 
           <About/>
         </Route> 

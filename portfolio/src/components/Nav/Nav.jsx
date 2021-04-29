@@ -30,16 +30,16 @@ export default function Nav(props) {
                         <Button onClick={toggleDrawer("left", true)}><Menu/></Button>
                         <SwipeableDrawer anchor="left" open={state["left"]} onClose={toggleDrawer("left", false)} onOpen={toggleDrawer("left", true)}>
                             <Button className="drawer-btn"><Link style={{color: color}}to="/"><img className="logo" src="/images/logo.png"title="Home" alt="logo"/></Link></Button>
-                            <Button><Link style={{color: color}} to="/about"><Face/></Link></Button>
-                            <Button className="drawer-btn"><Link style={{color: color}}to="/projects"><Code/></Link></Button>
-                            <Button><Link style={{color: color}} to="/contact"><Email/></Link></Button> 
+                            <Button><Link style={{color: color}} to="/about"><Face fontSize="small"/> About</Link></Button>
+                            <Button className="drawer-btn"><Link style={{color: color}}to="/projects"><Code/> Projects</Link></Button>
+                            <Button><Link style={{color: color}} to="/contact"><Email fontSize="small"/> Email</Link></Button> 
                         </SwipeableDrawer>
                     </div>
                     <div className="desktop">
                         <Button><Link to="/" style={{color: color}}><img className="logo" src="/images/logo.png"title="Home" alt="logo"/></Link></Button>
-                        <Button><Link style={{color: color}} to="/about"><Face/></Link></Button>
-                        <Button><Link style={{color: color}}to="/projects"><Code/></Link></Button>
-                        <Button><Link style={{color: color}} to="/contact"><Email/></Link></Button>
+                        <Button><Link style={{color: color}} to="/about"><Face fontSize="small"/> About</Link></Button>
+                        <Button><Link style={{color: color}}to="/projects"><Code/> Projects</Link></Button>
+                        <Button><Link style={{color: color}} to="/contact"><Email fontSize="small"/> Email</Link></Button>
                     </div>
                     <Switch className="switch" color="default" checked={props.mode.checked} onChange={props.handleChange} name="checked"></Switch>
                 </Toolbar>
