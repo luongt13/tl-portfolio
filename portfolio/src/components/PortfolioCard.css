@@ -1,0 +1,36 @@
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: auto;
+    max-width: 80%;
+}
+
+.project-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.project-item {
+    width: 50%;
+    margin: 15px auto;
+}
+
+.card { 
+    text-align: center;
+}
+
+/* .buttons {
+    display: flex;
+    justify-content: center;
+} */
+
+@media screen and (max-width: 800px) {
+    .project-item {
+        width: 80%;
+    }
+}

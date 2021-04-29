@@ -12,8 +12,8 @@ export default function SideNav() {
             <Tooltip title="Projects" placement="right">
                 <Button href="#projects"><Code/></Button>
             </Tooltip>
-            <Tooltip title="Email" placement="right">
-                <Button><Email fontSize="small"/></Button> 
+            <Tooltip title="Contact" placement="right">
+                <Button href="#contact"><Email fontSize="small"/></Button> 
             </Tooltip>   
             <Tooltip title="LinkedIn" placement="right">
                 <Button><LinkedIn/></Button>

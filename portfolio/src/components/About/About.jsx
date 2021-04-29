@@ -6,10 +6,6 @@ import "./About.css"
 export default function About() {
     return (
         <div>
-             {/* <div className="main"> */}
-             
-            {/* </div> */}
-             {/* <div className="main"> */}
                 <h2>My journey.</h2>
                 <p>My interest in web development started qhile working as a Dietitian. I was intrigued by the software and tools I used. I wished there were certain tools out there to better help my patients.</p>
                 <p>At the end of 2019, I decided along with a couple others to build a website with simple and easy to understand health information. My hope was to better equip health care professionals to education patients.</p>

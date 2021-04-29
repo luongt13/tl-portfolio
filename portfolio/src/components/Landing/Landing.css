@@ -22,6 +22,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: center;
     padding: 20px;
     width: 80%;
 }
@@ -37,3 +38,7 @@ li {
     padding-inline-start: 1ch;
 }
 
+#landing, #about, #projects, #contact {
+    /* flex: 1; */
+    height: 100vh;
+}

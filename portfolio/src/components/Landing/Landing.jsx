@@ -10,7 +10,7 @@ import "./Landing.css"
 export default function Landing() {
     return (
         <div className="content">
-            <div className="main">
+            <div className="main" id="landing">
                 <Intro/>
             </div>
             <div className="main" id="about">
@@ -46,7 +46,7 @@ export default function Landing() {
                 <h2>Things I've created.</h2>
                 <PortfolioPreview/>
             </div>
-            <div className="main">
+            <div className="main" id="contact">
                 <Contact/>
             </div>
             {/* <div className="main">

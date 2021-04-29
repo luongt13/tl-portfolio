@@ -2,7 +2,9 @@ import React from 'react'
 import {Button, Container, Tooltip} from "@material-ui/core/"
 import {GitHub, DesktopWindows} from "@material-ui/icons"
 
-import "./styles/Portfolio.css"
+// import "./styles/Portfolio.css"
+import "./PortfolioCard.css"
+
 export default function PortfolioCard(props) {
     //add tools I used to for one
     return (
