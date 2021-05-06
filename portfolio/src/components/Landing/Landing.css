@@ -1,3 +1,9 @@
+li {
+    display: list-item;
+    list-style-type: "+";
+    padding-inline-start: 1ch;
+}
+
 p {
     font-size: clamp(10px, 8vw, 17px);
     text-align: left;
@@ -27,18 +33,17 @@ p {
     width: 80%;
 }
 
-.big-text {
-    font-size: clamp(40px, 8vw, 80px);
-    margin: 0;
+.color-label {
+    color: #55BCC9;
 }
 
-li {
-    display: list-item;
-    list-style-type: "+";
-    padding-inline-start: 1ch;
-}
 
 #landing, #about, #projects, #contact {
-    /* flex: 1; */
     height: 100vh;
+}
+
+@media screen and (max-width: 800px) {
+    .main {
+        width: 100%;
+    }
 }

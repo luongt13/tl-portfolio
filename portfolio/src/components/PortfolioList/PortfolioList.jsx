@@ -1,5 +1,5 @@
 import React from 'react'
-import PortfolioCard from "../PortfolioCard"
+import PortfolioCard from "../Card/PortfolioCard.jsx"
 // import {Button, Card, CardActions} from "@material-ui/core/"
 import {data} from "../../data.js"
 

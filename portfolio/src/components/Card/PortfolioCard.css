@@ -1,11 +1,11 @@
-.buttons {
-    display: flex;
-    justify-content: center;
-}
-
 img {
     height: auto;
     max-width: 80%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
 }
 
 .project-list {
@@ -31,6 +31,6 @@ img {
 
 @media screen and (max-width: 800px) {
     .project-item {
-        width: 80%;
+        width: 100%;
     }
 }
