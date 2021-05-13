@@ -7,15 +7,14 @@ import "./PortfolioCard.css"
 export default function PortfolioCard(props) {
     //add tools I used to for one
     return (
-        <>
         <Container className="project-item">
             <div className="card">
                 <div className="details">
                     <h3>{props.data.title}</h3>
                     <h4>{props.data.description}</h4>
                 </div>
-                
-                <img src={props.data.img} alt="fish"/>
+                {props.data.tools}
+                <img src={props.data.img} alt={props.data.title}/>
             </div>
             <div className="buttons">
             <Tooltip title="live site">
@@ -25,7 +24,6 @@ export default function PortfolioCard(props) {
                 <Button href={props.data.githubURL} target="_blank"><GitHub/></Button>
             </Tooltip>
             </div>
-        </Container>
-        </>
+        </Container> 
     )
 }

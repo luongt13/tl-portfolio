@@ -24,7 +24,7 @@ export const data = [
             "webURL": "https://devocean-app.netlify.app/",
             "githubURL": "https://github.com/luongt13/devOcean-message",
             "img": "/images/dev-ocean.gif",
-            "tools": "React, Axios, Mongoose, MongoDB, Express"
+            "tools": "React, axios, Mongoose, MongoDB, Express"
         },
         {
             "number": 4,
@@ -33,6 +33,6 @@ export const data = [
             "webURL": "https://we-tinerary.netlify.app/",
             "githubURL": "https://github.com/luongt13/weTinerary",
             "img": "/images/wetinerary.gif",
-            "tools": "React, Axios, Ruby, Ruby on Rails"
+            "tools": "React, axios, Ruby, Ruby on Rails"
         }
     ]

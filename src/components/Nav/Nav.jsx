@@ -32,7 +32,7 @@ export default function Nav(props) {
                         <Button className="drawer-btn"><Link style={{color: color}}to="/"><img className="logo" src="/images/logo.png"title="Home" alt="logo"/></Link></Button>
                         <Button><Link style={{color: color}} to="#about"><Face fontSize="small"/> About</Link></Button>
                         <Button className="drawer-btn"><Link style={{color: color}}to="#projects"><Code/> Projects</Link></Button>
-                        <Button><Link style={{color: color}} to="#contact"><Email fontSize="small"/> Email</Link></Button> 
+                        <Button><Link style={{color: color}} to="#contact"><Email fontSize="small"/> Contact</Link></Button> 
                     </SwipeableDrawer>
                 </div>
                 <div className="desktop">
