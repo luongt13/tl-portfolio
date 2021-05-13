@@ -25,5 +25,14 @@ export const data = [
             "githubURL": "https://github.com/luongt13/devOcean-message",
             "img": "/images/dev-ocean.gif",
             "tools": "React, Axios, Mongoose, MongoDB, Express"
+        },
+        {
+            "number": 4,
+            "title": "weTinerary",
+            "description": "an itinerary sharing application",
+            "webURL": "https://we-tinerary.netlify.app/",
+            "githubURL": "https://github.com/luongt13/weTinerary",
+            "img": "/images/wetinerary.gif",
+            "tools": "React, Axios, Ruby, Ruby on Rails"
         }
     ]

@@ -1,7 +1,7 @@
 import React from 'react'
 import PortfolioPreview from "../PortfolioPreview.jsx"
-import {Button} from "@material-ui/core"
-import {Email, LinkedIn} from "@material-ui/icons"
+// import {Button} from "@material-ui/core"
+// import {Email, LinkedIn} from "@material-ui/icons"
 import About from "../About/About.jsx"
 import Contact from "../Contact/Contact.jsx"
 import Intro from "../Intro/Intro.jsx"

@@ -1,5 +1,5 @@
 import React from 'react'
-import {Email, GitHub, LinkedIn, Code, Home, Face} from "@material-ui/icons"
+import {Email, Code, Home, Face} from "@material-ui/icons"
 import {Button, Tooltip} from "@material-ui/core"
 import "./SideNav.css"
 

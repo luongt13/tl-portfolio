@@ -37,11 +37,8 @@ export default function Nav(props) {
                 </div>
                 <div className="desktop">
                     <Button><Link to="/" style={{color: color}}><img className="logo" src="/images/logo.png"title="Home" alt="logo"/></Link></Button>
-                    {/* <Button href="#about"><Link style={{color: color}} to="#about"><Face fontSize="small"/> About</Link></Button> */}
                     <Button href="#about"><Face fontSize="small"/> About</Button>
-                    {/* <Button href="#projects"><Link style={{color: color}}to="#projects"><Code/> Projects</Link></Button> */}
                     <Button href="#projects"><Code/> Projects</Button>
-                    {/* <Button href="#contact"><Link style={{color: color}} to="#contact"><Email fontSize="small"/> Email</Link></Button> */}
                     <Button href="#contact"><Email fontSize="small"/> Email</Button>
                     <Button href="https://drive.google.com/file/d/1tVWyEaGqpravnyFE3ZakGI0iGFNWhyF0/view?usp=sharing" target="blank"><Description fontSize="small"/> Resume</Button>
                 </div>

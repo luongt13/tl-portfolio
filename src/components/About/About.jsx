@@ -1,6 +1,4 @@
 import React from 'react'
-import {Container} from "@material-ui/core"
-import PortfolioPreview from "../PortfolioPreview"
 import "./About.css"
 
 export default function About() {
@@ -26,7 +24,6 @@ export default function About() {
                         <li>Mongoose</li>
                     </ul>
                 </div>
-          
             {/* <Container className="contain">
             <h3>my creations</h3>
             </Container>

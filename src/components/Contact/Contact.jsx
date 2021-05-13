@@ -1,4 +1,4 @@
-import {Email, GitHub, LinkedIn} from "@material-ui/icons"
+import {Email, LinkedIn} from "@material-ui/icons"
 import {Button} from "@material-ui/core"
 import "./Contact.css"
 

@@ -2,12 +2,8 @@ import './App.css'
 import {useState} from "react"
 import {Route} from "react-router-dom"
 import Nav from "./components/Nav/Nav.jsx"
-import About from "./components/About/About.jsx"
-import PortfolioList from "./components/PortfolioList/PortfolioList.jsx"
 import SideNav from "./components/Nav/SideNav.jsx"
-import PortfolioPreview from "./components/PortfolioPreview"
 import Landing from "./components/Landing/Landing.jsx"
-import Footer from "./components/Footer/Footer.jsx"
 import {createMuiTheme, ThemeProvider} from "@material-ui/core/styles"
 import CssBaseline from "@material-ui/core/CssBaseline"
 
