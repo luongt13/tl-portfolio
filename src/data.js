@@ -32,7 +32,7 @@ export const data = [
             "description": "an itinerary sharing application",
             "webURL": "https://we-tinerary.netlify.app/",
             "githubURL": "https://github.com/luongt13/weTinerary",
-            "img": "/images/wetinerary.gif",
+            "img": "/images/we-tinerary.gif",
             "tools": "React, axios, Ruby, Ruby on Rails"
         }
     ]

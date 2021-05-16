@@ -12,8 +12,8 @@ export default function PortfolioCard(props) {
                 <div className="details">
                     <h3>{props.data.title}</h3>
                     <h4>{props.data.description}</h4>
+                    <h5>Technologies: {props.data.tools}</h5>
                 </div>
-                {props.data.tools}
                 <img src={props.data.img} alt={props.data.title}/>
             </div>
             <div className="buttons">

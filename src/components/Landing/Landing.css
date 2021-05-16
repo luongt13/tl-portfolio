@@ -31,15 +31,11 @@ p {
     justify-content: center;
     padding: 20px;
     width: 80%;
+    height: 100vh;
 }
 
 .color-label {
     color: #55BCC9;
-}
-
-
-#landing, #about, #projects, #contact {
-    height: 100vh;
 }
 
 @media screen and (max-width: 800px) {
