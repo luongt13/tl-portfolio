@@ -8,7 +8,7 @@ img {
     justify-content: center;
 }
 .project-item {
-    width: 50%;
+    width: 500px;
     margin: 15px auto;
 }
 
@@ -16,8 +16,28 @@ img {
     text-align: center;
 }
 
+.detail-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.detail-container > h3 {
+    margin-right: 5px;
+    padding: 10px;
+}
+
 @media screen and (max-width: 800px) {
     .project-item {
         width: 100%;
+    }
+
+    .detail-container {
+        flex-direction: column;
+    }
+
+    .detail-container > h3, .detail-container > h4 {
+        padding: 0;
+        margin: 0;
     }
 }
