@@ -14,14 +14,16 @@ export default function About() {
                     <li>JavaScript</li>
                     <li>React</li>
                     <li>Netlify</li>
+                    <li>Heroku</li>
                     <li>Node.js</li>
                     
                 </ul>
                 <ul className="right">
-                    <li>Heroku</li>
                     <li>Express</li>
                     <li>MongoDB</li>
                     <li>Mongoose</li>
+                    <li>Ruby</li>
+                    <li>Ruby on Rails</li>
                 </ul>
             </div>
         </div>
