@@ -1,11 +1,9 @@
 import React from 'react'
-import {Button, Container, Tooltip, Card, CardActionArea, CardContent, CardActions, CardMedia} from "@material-ui/core/"
+import {Button, Tooltip, Card, CardContent, CardActions, CardMedia} from "@material-ui/core/"
 import {GitHub, DesktopWindows} from "@material-ui/icons"
-
 import "./PortfolioCard.css"
 
 export default function PortfolioCard(props) {
-    //add tools I used to for one
     return (
         // <Container className="project-item">
         //     <div className="card">
@@ -32,7 +30,6 @@ export default function PortfolioCard(props) {
                     <h3>{props.data.title}</h3>
                     <h4>{props.data.description}</h4>
                     </div>
-                   
                     <h5>Technologies: {props.data.tools}</h5>
                 </CardContent>
                 <CardMedia>
