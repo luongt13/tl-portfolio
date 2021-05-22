@@ -1,8 +1,7 @@
 import {useState, useEffect} from 'react'
-import PortfolioCard from "./Card/PortfolioCard.jsx"
-import {data} from "../data.js"
-// import Carousel from "react-material-ui-carousel"
-import "./styles/Portfolio.css"
+import PortfolioCard from "../Card/PortfolioCard.jsx"
+import {data} from "../../data.js"
+import "./Portfolio.css"
 
 export default function PortfolioPreview() {
     let [content, setContent] = useState([])
@@ -16,7 +15,7 @@ export default function PortfolioPreview() {
 
     return (
     <div className="project-list">
-            {/* <Carousel className="project-list"> */}
+            {/* <h2 className="color-label">Things I've created.</h2> */}
             {content.map((item) => {
                 return (
                     <PortfolioCard key={item.number} data={item}/>
