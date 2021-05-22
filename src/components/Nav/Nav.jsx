@@ -24,7 +24,7 @@ export default function Nav(props) {
 
     return (
     <div>
-        <AppBar position="static" className="nav" color="default">
+        <AppBar position="static" className="nav" color="default" id="top">
             <Toolbar>
                 <div className="mobile">
                     <Button onClick={toggleDrawer("left", true)}><Menu/></Button>

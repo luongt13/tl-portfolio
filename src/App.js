@@ -6,6 +6,7 @@ import SideNav from "./components/Nav/SideNav.jsx"
 import Landing from "./components/Landing/Landing.jsx"
 import {createMuiTheme, ThemeProvider} from "@material-ui/core/styles"
 import CssBaseline from "@material-ui/core/CssBaseline"
+import Footer from "./components/Footer/Footer.jsx"
 
 function App() {
   const [mode, setMode] = useState({
@@ -32,6 +33,7 @@ function App() {
         <Route exact path="/">
           <Landing/>
         </Route>
+        <Footer/>
         </div>
     </ThemeProvider>
     </div>

@@ -5,8 +5,8 @@ export const data = [
             "description": "an application to calculate total carbohydrates and insulin to carbohydrate ratio",
             "webURL": "https://luongt13.github.io/meal-time-insulin/",
             "githubURL": "https://github.com/luongt13/meal-time-insulin",
-            "img": "/images/mealtime-rec.gif",
-            "tools": "JavaScript, axios, HTML/CSS, API"
+            "img": "/images/mealtime-sm.gif",
+            "tools": "JavaScript, axios, HTML/CSS, REST API"
         },
         {
             "number": 2,
@@ -14,8 +14,8 @@ export const data = [
             "description": "a goal setting application",
             "webURL": "https://fish-goals.netlify.app/",
             "githubURL": "https://github.com/luongt13/fishgoal",
-            "img": "/images/fish-goals.gif",
-            "tools": "React, axios, AirTable, Material-UI"
+            "img": "/images/fishgoals-sm.gif",
+            "tools": "React, axios, AirTable, Material-UI, REST API"
         },
         {
             "number": 3,
@@ -23,7 +23,7 @@ export const data = [
             "description": "a community based messaging application",
             "webURL": "https://devocean-app.netlify.app/",
             "githubURL": "https://github.com/luongt13/devOcean-message",
-            "img": "/images/dev-ocean.gif",
+            "img": "/images/devocean-sm.gif",
             "tools": "React, axios, Mongoose, MongoDB, Express"
         },
         {
@@ -32,7 +32,7 @@ export const data = [
             "description": "an itinerary sharing application",
             "webURL": "https://we-tinerary.netlify.app/",
             "githubURL": "https://github.com/luongt13/weTinerary",
-            "img": "/images/we-tinerary.gif",
-            "tools": "React, axios, Ruby, Ruby on Rails"
+            "img": "/images/wetinerary-sm.gif",
+            "tools": "React, axios, Ruby, Ruby on Rails, PostgresQL"
         }
     ]

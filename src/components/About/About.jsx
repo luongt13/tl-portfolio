@@ -16,7 +16,6 @@ export default function About() {
                     <li>Netlify</li>
                     <li>Heroku</li>
                     <li>Node.js</li>
-                    
                 </ul>
                 <ul className="right">
                     <li>Express</li>
