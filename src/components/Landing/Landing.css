@@ -35,6 +35,7 @@ p {
 
 .color-label {
     color: #55BCC9;
+    font-style: italic;
 }
 
 #contact, #about, #landing {

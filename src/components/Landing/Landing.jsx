@@ -1,5 +1,5 @@
 import React from 'react'
-import PortfolioPreview from "../PortfolioPreview.jsx"
+import PortfolioPreview from "../PortfolioPreview/PortfolioPreview.jsx"
 import About from "../About/About.jsx"
 import Contact from "../Contact/Contact.jsx"
 import Intro from "../Intro/Intro.jsx"
