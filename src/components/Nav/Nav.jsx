@@ -40,7 +40,7 @@ export default function Nav(props) {
                     <Button href="#about"><Face fontSize="small"/> About</Button>
                     <Button href="#projects"><Code/> Projects</Button>
                     <Button href="#contact"><Email fontSize="small"/> Contact</Button>
-                    <Button href="https://drive.google.com/file/d/1tVWyEaGqpravnyFE3ZakGI0iGFNWhyF0/view?usp=sharing" target="blank"><Description fontSize="small"/> Resume</Button>
+                    <Button href="https://drive.google.com/file/d/1K2h7IQ9HX0OBxlXhZAPXn9zFZW9B5uaJ/view?usp=sharing" target="blank"><Description fontSize="small"/> Resume</Button>
                 </div>
                 <Switch className="switch" color="default" checked={props.mode.checked} onChange={props.handleChange} name="checked"></Switch>
             </Toolbar>
