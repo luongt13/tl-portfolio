@@ -6,7 +6,7 @@ export default function Intro() {
         <img src="/images/profile-pic.jpg" alt="profile" id="profile"/>
             <div className="intro-text">
                 <h1 className="big-text color-label">Tran Luong.</h1>
-                <p>I am a Philly-based software engineer who loves taking a creative approach to developing tools to improve the lives of others.</p>
+                <p>I am a software engineer who loves taking a creative approach to developing tools to improve the lives of others.</p>
             </div>
             
         </div>
